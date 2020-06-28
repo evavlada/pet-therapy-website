@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet Therapy/Contact Us</title>
+    <meta name="description" content=" Contact Pets as Therapy in Ireland - non profit Organisation that helps people benefit of the teraputic effect animals have.">
+    <meta name="keywords" content="pet theraphy Ireland, dog theraphy Ireland, cat theraphy, animal theraphy"> 
+    <!-- The CSS Stylesheet is still a work in progress and experimentation!!-->
+    <link rel="stylesheet" href="Pet Therapy.css">
+  </head>
+  <body>
+    <header>
+      <h1>Pet Therapy Ireland</h1>
+    </header>
+      <nav> <!--Creates navigation -->
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="/Our Team">Our Team</a></li><!--Not yet created-->
+          <li><a href="Volunteer">Volunteer</a></li><!--Not yet created-->
+          <li><a href="Contact Us.html">Contact</a></li>
+        </ul>  
+      </nav>
+    
+     <h2>Contact us</h12>
+     <h3>Our Address</h3>
+    <address>Lorem Ipum,Lorem Ipsum, Dublin 15.Dublin</address>
+    <p>Telephone. 0860590169</p>
+
+    <div class="box">
+     <form action="submit.php" method="POST"><!--Needs labels and inputs..-->
+       <label for="name">Name</label> 
+       <input type="text" name="fullname" maxlength="20" required></br><!--maxlength(max allowed of the input field-->
+       <label for="email">Email</label>
+       <input type="email" required></br>
+       <label for="phone">Phone</label>
+       <input type="phone" required></br> <!--Atributes- size-specifies the size of the input field-->
+       <label for="subjet">Subject</label>
+       <input type="text" name="subject" id="subject"></br>
+       <label for="message">Message</label>
+       <input type="text" name="message" id="message" multiple ></br>
+       <input type="submit" value="Send Message"></br>
+      
+     </form>
+      <!--I included it as it improves SEO!!!-->
+     <div id="map"">
+      <iframe width="500" height="440" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=7%20The%20Drive%2C%20Mulhuddart%20Wood%2C%20D15%2C%20Dublin+(Pet%20Therapy%20Ireland)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+        <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">Embedgooglemaps.com/it/</a> & <a href="http://top-central.com/">magentotoshopify</a></small>
+      </div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+    </div><br />
+    </div>
+    
+     <picture>
+      <img src="Pictures\_B9A9607-2.jpg" alt="one of our therapy dog team" ><!--SEO - alt description-->
+     </picture>
+  
+    <footer>
+     <p> Pet Therapy Ireland</p>
+     <address>Lorem Ipsum, Lorem Ipsum Dublin 15.Dublin</address>
+     <p>Please visit our sister foundation <a href="https://animaltherapyireland.org/">Animal Therapy Ireland</a> Organisation. </p>
+    </footer>
+  </body>
+</html>

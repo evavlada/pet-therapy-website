@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* not in use in html at the moment
+aside{
+  flex: 30%; 
+  background-color:rgba(243, 241, 239, 0.5);
+  padding: 20px; 
+  float:right;
+  
+}
+*/
+article {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+header {
+  text-align: right;
+  size: 10px;
+  padding: 10px; 
+  color: rgb(248, 158, 158);
+}
+h2 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgba(247, 237, 216, 0.479); /*  Add the background-color to <ul> instead of each <a> element if you want a full-width background color*/
+}
+nav {
+  margin: 0%;
+}
+li {
+  float: left; /*use float to get block elements to slide next to each other*/
+  color: rgb(48, 34, 34);
+  margin: 0%;
+  padding: 0%;
+}
+
+li a {
+  display: block;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;/* to centre the links*/
+  color: black;
+}
+a:link {
+  text-decoration: none; /* to style the link use a:link, a:visited etc..*/
+  color: rgb(189, 65, 65);
+}
+a:visited { 
+  text-decoration:none;
+  color: rgb(248, 70, 70); /*font color change when it's been visited*/
+}
+a:hover {
+  text-decoration:none;
+  color: rgb(95, 67, 128);
+}
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+img {
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+}
+
+form{
+  border: 1px;
+  text-align: center;
+  background-color: whitesmoke;
+  float: center;
+}
+.half{
+  width: 100%;
+  border-radius: 5px;
+  float: right;
+  padding: 5px;
+  background-color:white;
+
+}
+form, #map {
+  width: 50%;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgb(209, 208, 208);
+  padding: 10px;
+  margin: 10px;
+}
+#map {
+  float: right;
+  width: 40%;
+}
+
+input {
+  width: 70%; /*determines the width of the input field*/
+  padding: 5px 5px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid rgb(177, 174, 174); 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#message {
+height: 150px;
+padding: 12px 20px;
+}
+footer {
+  background-color: rgba(247, 237, 216, 0.479); 
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.box {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+label {
+  display: inline-block; 
+}
+@media screen and (max-width: 700px) {
+  aside {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
